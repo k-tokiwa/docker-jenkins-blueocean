@@ -4,6 +4,9 @@ services:
   # Jenkins Master
   jenkins:
     image: blacklabelops/jenkins:alpine
+    # build:
+    #   context:
+    #     - master/
     container_name: jenkins
     hostname: jenkins
     networks:
@@ -21,6 +24,9 @@ services:
   # Jenkins Slave
   slave:
     image: blacklabelops/swarm-jdk8
+    # build:
+    #   context:
+    #     - slave-jdk8/
     networks:
       - jenkinsnet
     env_file:
