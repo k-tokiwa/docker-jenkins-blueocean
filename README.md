@@ -8,26 +8,8 @@
 
 Aipo Open Source Edition docker image
 
-## Description
-
-## Demo
-
-## VS. 
-
-## Requirement
+**Demo**
 
 ## Usage
 
 ## Install
-
-## Contribution
-
-## Deploy
-
-## Licence
-
-[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
-
-## Author
-
-[tcnksm](https://github.com/tcnksm)
