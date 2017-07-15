@@ -1,12 +1,9 @@
-version: '2'
-
+version: '3'
 services:
   # Jenkins Master
   jenkins:
-    image: blacklabelops/jenkins:alpine
-    # build:
-    #   context:
-    #     - master/
+    # image: blacklabelops/jenkins:alpine
+    image: jenkinsci/blueocean:latest
     container_name: jenkins
     hostname: jenkins
     networks:
