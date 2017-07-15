@@ -6,7 +6,8 @@
 
 ====
 
-Aipo Open Source Edition docker image
+jenkins BlueOcean
+
 
 **Demo**
 
