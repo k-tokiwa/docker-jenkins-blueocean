@@ -14,7 +14,7 @@ services:
       - jenkinsdata:/jenkins
       - jenkinslogs:/var/log
     env_file:
-      - jenkins-master.env
+      - ./env/jenkins-master.env
     labels:
       com.blacklabelops.description: "Jenkins Continuous Integration System"
       com.blacklabelops.service: "jenkins-master"
@@ -27,7 +27,7 @@ services:
     networks:
       - jenkinsnet
     env_file:
-      - jenkins-slave.env
+      - ./env/jenkins-slave.env
     labels:
       com.blacklabelops.description: "Jenkins Swarm JDK-8 Slave"
       com.blacklabelops.service: "slave"
