@@ -11,7 +11,7 @@ branches:
 install:
 
 before_script:
-  - docker-conpose config
+  - docker-compose config
 script:
   - docker-compose up -d
 after_script:
