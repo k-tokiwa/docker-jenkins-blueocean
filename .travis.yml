@@ -19,4 +19,4 @@ after_script:
   - docker ps
   - docker volume ls
 notifications:
-slack: diorama-radio:JaoyLeAlhZ8e6ugkadHEdteG
+  slack: diorama-radio:JaoyLeAlhZ8e6ugkadHEdteG
